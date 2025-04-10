@@ -32,8 +32,8 @@ export default class Svg{
 				content: templateArguments,
 				puppeteerArgs: {
 					defaultViewport: {
-						width: 1920,
-						height: 1080
+						width: 3840,
+						height: 2160
 					}
 				}
 			}).then(() => console.log('The image was created successfully!'))
